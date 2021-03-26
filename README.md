@@ -1,6 +1,6 @@
 # About
-This is a responsive Starbucks website. It consists of a homepage with a navigation bar that links the subpages, including Menu and Locations.
-Contact us has links to starbucks' official social media handles. The autumn-y colours used are in line with a coffee aesthetic. 
+This is a responsive Starbucks website. It consists of a homepage with a toggleable navigation bar that links the subpages, including Menu and Locations.
+Contact us has links to Starbucks' official social media handles. The autumn-y colours used are in line with a coffee aesthetic. 
 
 **Languages used**- The website was created using basic HTML , CSS (and bootstrap 4)
 
