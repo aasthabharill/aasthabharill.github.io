@@ -13,8 +13,9 @@
   height: 25vh;
 }
 .contact_head{
-  padding-top: 1vh;
+  padding-top: 0.5vh;
 }
+
 
 html,
 body {
@@ -33,7 +34,7 @@ body {
   background: #fbf6ed;
   width: 100%;
   height: auto;
-  margin-top: 25vh;
+  /* margin-top: 10vh; */
   aspect-ratio: 3993/4969;
   position: relative;
 
