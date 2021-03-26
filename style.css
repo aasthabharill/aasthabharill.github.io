@@ -1,0 +1,409 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navi{
+  background-color:rgb(5, 49, 51);
+  height: 10vh;
+  margin-bottom: 10vh;
+}
+.contact
+{
+  background-color:rgb(5, 49, 51);
+  height: 25vh;
+}
+.contact_head{
+  padding-top: 1vh;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #fbf6ed;
+  /* #fffef2 */
+}
+
+/*.sheader {
+  box-sizing: border-box;
+  width: 47rem;
+  height: 16rem; 
+} */
+.sheader {
+  width: 100%;
+  height: auto;
+  margin-top: 25vh;
+  aspect-ratio: 3993/4969;
+  position: relative;
+
+  text-align: center;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  object-fit: cover;
+  object-position: bottom;
+
+  background-size: cover;
+  float:left; */
+}
+/* #coffee {
+  background: url("../projectcafe/coffee_2_re.jpg");
+  height: 100%;
+  width: 30%;
+  background-size: 100% 100%;
+  margin: 10px;
+
+  float: left;
+  z-index: 1;
+}
+
+ #coffee::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.3;
+  z-index: -1;
+} 
+
+#food {
+  background: url("../projectcafe/food4.jpg");
+  height: 100%;
+  width: 30%;
+  background-size: cover;
+  margin: 10px;
+
+  float: left;
+  z-index: 1;
+}
+
+  #food::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 30%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: -1;
+} 
+
+#extra {
+  background: url("../projectcafe/food4.jpg");
+  height: 100%;
+  width: 30%;
+  background-size: cover;
+  margin: 10px;
+
+  float: left;
+  z-index: 1;
+} */
+
+/* #coffee {
+  aspect-ratio: 1/1.2444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+  object-fit: cover;
+  object-position: bottom;
+
+  background: url("../projectcafe/coffee_2_re.jpg");
+  height: 100%;
+  width: 30%;
+  background-size: 100% 100%;
+  margin: 10px;
+
+  float: left;
+  z-index: 1;
+}
+
+#coffee:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../projectcafe/coffee_2_re.jpg");
+  aspect-ratio: 1/1.2444;
+
+  object-fit: cover;
+  object-position: bottom;
+  height: 100%;
+  width: 30%;
+  background-size: 100% 100%;
+  margin: 10px;
+}
+
+#food {
+  aspect-ratio: 1/1.2444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  object-fit: cover;
+  object-position: bottom;
+
+  background: url("../projectcafe/food4.jpg");
+  height: 100%;
+  width: 30%;
+  background-size: 100% 100%;
+  margin: 10px;
+
+  float: left;
+  z-index: 1;
+}
+
+#extra {
+  aspect-ratio: 1/1.2444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  object-fit: cover;
+  object-position: bottom;
+
+  background: url("../projectcafe/food4.jpg");
+  height: 100%;
+  width: 30%;
+  background-size: 100% 100%;
+  margin: 10px;
+
+  float: left;
+  z-index: 1;
+}
+*/
+
+#coffee {
+  border: 2px solid black;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+  font-size: 2vw;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 11%;
+  top: 24%;
+}
+
+#food {
+  border: 2px solid black;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 2vw;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 45%;
+  top: 24%;
+}
+#locations {
+  border: 2px solid black;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 2vw;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 77.5%;
+  top: 24%;
+}
+
+/* #story {
+  font-size: 2vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: black;
+
+  text-decoration: none;
+  outline: 2px solid black;
+  outline-offset: 20px; */
+
+/*width: 100%;
+  height: auto;
+  aspect-ratio: 6000/2768;
+
+  text-align: center;
+  color: black;
+
+  outline: 2px solid white;
+  outline-offset: 20px; 
+} */
+
+.container {
+  position: relative;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.7;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 1.5vw;
+  padding: 1.5vw 3vw;
+}
+
+.bottom {
+  background-color: #faf2e4;
+  border: 2px solid #f8eddb;
+  height: 20%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 840px) {
+  .sheader {
+    border: none;
+  }
+
+  #coffee {
+    aspect-ratio: 1/1.2444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    object-fit: cover;
+    object-position: bottom;
+
+    background: url("../projectcafe/coffee2_small.jpg");
+    height: 100%;
+    width: 30%;
+    background-size: 100% 100%;
+    border: none;
+    position: absolute;
+    top: -30%;
+    left: 14%;
+
+    float: left;
+    z-index: 1;
+  }
+
+  #food {
+    aspect-ratio: 1/1.2444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    object-fit: cover;
+    object-position: bottom;
+
+    background: url("../projectcafe/food4_small.jpg");
+    height: 100%;
+    width: 30%;
+    background-size: 100% 100%;
+    border: none;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+
+    float: left;
+    z-index: 1;
+  }
+
+  #locations {
+    aspect-ratio: 1/1.2444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    object-fit: cover;
+    object-position: bottom;
+
+    background: url("../projectcafe/location2_small.jpg");
+    height: 100%;
+    width: 30%;
+    background-size: 100% 100%;
+    border: none;
+    position: absolute;
+    top: -6%;
+    left: 33%;
+
+    float: left;
+    z-index: 1;
+  }
+}
+
+.c_banner {
+  aspect-ratio: none;
+  font-size: 20vw;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  position: absolute;
+  left: 20%;
+  top: 18%;
+  opacity: 0.75;
+}
+.f_banner {
+  aspect-ratio: none;
+  font-size: 20vw;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  position: absolute;
+  left: 47%;
+  top: 18%;
+  opacity: 0.75;
+}
+
+/* .l_banner {
+  aspect-ratio: none;
+  font-size: 12vw;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  position: absolute;
+  left: 5%;
+  top: 0%;
+  opacity: 1;
+} */
+
+.l_banner {
+  aspect-ratio: none;
+  font-size: 12vw;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  position: absolute;
+  left: 44%;
+  top: 36%;
+  opacity: 0.75;
+}
